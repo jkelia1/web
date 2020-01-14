@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS Songs;
+CREATE TABLE Songs (band TEXT, album TEXT, title TEXT, genre TEXT);
+INSERT INTO Songs VALUES ('Led Zepplin','Led Zepplin IV','Rock and Roll','Rock');
+INSERT INTO Songs VALUES ('Led Zepplin','Led Zepplin II','Heartbreaker','Rock');
+INSERT INTO Songs VALUES ('The Police','Synchronicity','Every Breath You Take','Pop');
+INSERT INTO Songs VALUES ('Queen','A Night at the Opera','Bohemian Rhapsody','Rock');
+INSERT INTO Songs VALUES ('Queen','News of the World','We Will Rock You','Rock');
+INSERT INTO Songs VALUES ('Queen','News of the World','We Are the Champions','Rock');
+INSERT INTO Songs VALUES ('Survivor','Eye of the Tiger','Eye of the Tiger','Pop');
+INSERT INTO Songs VALUES ('Carrie Underwood','Some Hearts','Inside Your Heaven','Pop');
+INSERT INTO Songs VALUES ('Carrie Underwood','Blown Away','See You Again','Country');
+INSERT INTO Songs VALUES ('Carrie Underwood','Greatest Hits: Decade #1','Something in the Water','Country');
+SELECT * FROM Songs;
+SELECT * FROM Songs WHERE band = 'Queen';
+SELECT title FROM Songs WHERE album='News of the World';
+SELECT album, band FROM Songs WHERE genre='Pop';
+SELECT * FROM Songs ORDER BY album ASC;

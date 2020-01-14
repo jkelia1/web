@@ -1,0 +1,80 @@
+.no-cursor {
+    cursor: none;
+}
+* {
+    transition: all 0.3s ease-in-out;
+}
+.--white {
+    color: white;
+}
+.-bg-bold {
+    font-family:'Brandon Grotesque Bold';font-weight:normal;
+}
+.-bg-bold-i {
+    font-family:'Brandon Grotesque Bold Italic';font-weight:normal;
+}
+
+.-bg-black {
+    font-family:'Brandon Grotesque Black';font-weight:normal;
+}
+.-bg-black-i {
+    font-family:'Brandon Grotesque Black Italic';font-weight:normal;
+}
+
+.-bg-light {
+    font-family:'Brandon Grotesque Light';font-weight:normal;
+}
+.-bg-light-i {
+    font-family:'Brandon Grotesque Light Italic';font-weight:normal;
+}
+
+.-bg-med {
+    font-family:'Brandon Grotesque Medium';font-weight:normal;
+}
+.-bg-med-i {
+    font-family:'Brandon Grotesque Medium Italic';font-weight:normal;
+}
+
+.-bg-reg {
+    font-family:'Brandon Grotesque Regular';font-weight:normal;
+}
+.-bg-reg-i {
+    font-family:'Brandon Grotesque Regular Italic';font-weight:normal;
+}
+
+.-bg-thin {
+    font-family:'Brandon Grotesque Thin';font-weight:normal;
+}
+.-bg-thin-i {
+    font-family:'Brandon Grotesque Thin Italic';font-weight:normal;
+}
+.c-green {
+    color: #18DB9A;
+}
+.c-green-b {
+    background-color: #18DB9A;
+}
+.c-white {
+    color: azure;
+}
+.on-hover:hover {
+    text-shadow: 3px 3px 3px #cccccc;
+}
+.on-hover:active {
+    text-shadow: 6px 6px 2px #bbbbbb;
+}
+.c-black {
+    color: #312F30;
+}
+.c-black-b {
+    background-color: #312F30;
+}
+.c-yellow {
+    color: #FFD374;
+}
+.c-yellow-b {
+    background-color: #FFD374;
+}
+br::before {
+    content: 'e';
+}

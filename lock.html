@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel=stylesheet type="text/css" href="brandon-grotesque-full/style.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.4.1-dist/bootstrap-3.4.1-dist/css/bootstrap.css">
+    <link rel=stylesheet type="text/css" href="master.css">
+</head>
+<body class="c-black-b no-cursor">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-12">
+                <center><h1 class=" -bg-bold c-green" style="font-size: 41px">DROP TABLE IF EXISTS Songs;
+CREATE TABLE Songs (band TEXT, album TEXT, title TEXT, genre TEXT);<br>
+INSERT INTO Songs VALUES ('Led Zepplin','Led Zepplin IV','Rock and Roll','Rock');<br>
+INSERT INTO Songs VALUES ('Led Zepplin','Led Zepplin II','Heartbreaker','Rock');<br>
+INSERT INTO Songs VALUES ('The Police','Synchronicity','Every Breath You Take','Pop');<br>
+INSERT INTO Songs VALUES ('Queen','A Night at the Opera','Bohemian Rhapsody','Rock');<br>
+INSERT INTO Songs VALUES ('Queen','News of the World','We Will Rock You','Rock');<br>
+INSERT INTO Songs VALUES ('Queen','News of the World','We Are the Champions','Rock');<br>
+INSERT INTO Songs VALUES ('Survivor','Eye of the Tiger','Eye of the Tiger','Pop');<br>
+INSERT INTO Songs VALUES ('Carrie Underwood','Some Hearts','Inside Your Heaven','Pop');<br>
+INSERT INTO Songs VALUES ('Carrie Underwood','Blown Away','See You Again','Country');<br>
+INSERT INTO Songs VALUES ('Carrie Underwood','Greatest Hits: Decade #1','Something in the Water','Country');
+
+<br>
+<span style="color: skyblue">SELECT * FROM Songs;<br>
+SELECT * FROM Songs WHERE band = 'Queen';<br>
+SELECT title FROM Songs WHERE album='News of the World';<br>
+SELECT album, band FROM Songs WHERE genre='Pop' OR genre='Country';<br>
+    SELECT * FROM Songs ORDER BY album ASC;</span></h1></center>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
